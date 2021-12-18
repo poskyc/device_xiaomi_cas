@@ -6,22 +6,23 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from the device configuration.
 $(call inherit-product, device/xiaomi/cas/device.mk)
 
-# Inherit from the ArrowOS configuration.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit from the Aosp configuration.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := arrow_cas
+PRODUCT_NAME := aosp_cas
 PRODUCT_DEVICE := cas
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2007J1SC
 PRODUCT_MANUFACTURER := Xiaomi
 
-DEVICE_MAINTAINER := Xayah
+DEVICE_MAINTAINER := poskyc
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/cas/cas:11/RKQ1.200826.002/V12.5.6.0.RJJCNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/cas/cas:11/RKQ1.200826.002/V12.5.8.0.RJJCNXM:user/release-keys
