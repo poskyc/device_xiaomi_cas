@@ -167,8 +167,8 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Camera
 system/lib/libyuv.so
-system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
-system_ext/lib/vendor.qti.hardware.camera.device@3.5.so
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib/vendor.qti.hardware.camera.device@3.5.so
 vendor/lib/camera/com.qti.actuator.cas_ofilm_ultra_dw9800.so
 vendor/lib/camera/com.qti.eeprom.cas_ofilm_imx350_gt24p64b.so
 vendor/lib/camera/com.qti.eeprom.cas_semco_imx586_sem1215.so
@@ -342,6 +342,8 @@ vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_855.so
 vendor/lib64/libmibokeh_mask.so
+vendor/lib64/libmiphone_bokeh_rectify.so
+vendor/lib64/libmistereofactoryremaplib.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmpbase.so
@@ -1421,7 +1423,6 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
-system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/qcrilhook.jar
 system_ext/framework/qti-telephony-common.jar
 vendor/bin/adpl
@@ -1768,7 +1769,7 @@ vendor/lib64/libscveObjectTracker_stub.so
 vendor/lib64/libscveObjectTracker.so
 
 # Soter
--system/app/SoterService/SoterService.apk
+-vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
