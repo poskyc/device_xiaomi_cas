@@ -25,4 +25,4 @@ DEVICE_MAINTAINER := poskyc
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/cas/cas:11/RKQ1.200826.002/V12.5.8.0.RJJCNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/cas/cas:12/RKQ1.211001.001/21.12.8:user/release-keys
