@@ -344,6 +344,8 @@ vendor/lib64/libmibokeh_855.so
 vendor/lib64/libmibokeh_mask.so
 vendor/lib64/libmiphone_bokeh_rectify.so
 vendor/lib64/libmiStereoFactoryRemapLib.so
+vendor/lib64/libmiphone_bokeh_rectify.so
+vendor/lib64/libmiStereoFactoryRemapLib.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmpbase.so
@@ -1256,6 +1258,10 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 
 # NFC Firmware
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp_RF.conf
+vendor/etc/libnfc-nxp-pnscr.conf
 vendor/lib/libsn100u_fw.so
 
 # Neural Networks
