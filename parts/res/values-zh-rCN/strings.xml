@@ -26,4 +26,5 @@
     <!--Display settings fragment -->
     <string name="display_settings_title">自定义显示</string>
     <string name="display_settings_summary">DC调光</string>
+
 </resources>
