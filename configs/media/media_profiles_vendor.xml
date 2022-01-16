@@ -186,7 +186,7 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="4kdci" fileFormat="mp4" duration="30">
+    <!--<EncoderProfile quality="4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="57500000"
             width="4096"
@@ -197,7 +197,7 @@
             bitRate="320000"
             sampleRate="48000"
             channels="2" />
-    </EncoderProfile>
+    </EncoderProfile>-->
 
     <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
       <Video codec="h264"
@@ -770,7 +770,7 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="qhd" fileFormat="mp4" duration="30">
+    <!--<EncoderProfile quality="qhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="29400000"
              width="2560"
@@ -794,7 +794,7 @@
              bitRate="320000"
              sampleRate="48000"
              channels="2" />
-    </EncoderProfile>
+    </EncoderProfile>-->
 
     <EncoderProfile quality="4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
@@ -988,14 +988,13 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapseqhd" fileFormat="mp4" duration="30">
+    <!--<EncoderProfile quality="timelapseqhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="29400000"
              width="2560"
              height="1440"
              frameRate="30" />
 
-      <!-- audio setting is ignored -->
       <Audio codec="aac"
              bitRate="320000"
              sampleRate="48000"
@@ -1009,12 +1008,12 @@
              height="1080"
              frameRate="30" />
 
-      <!-- audio setting is ignored -->
       <Audio codec="aac"
              bitRate="320000"
              sampleRate="48000"
              channels="2" />
-    </EncoderProfile>
+    </EncoderProfile>-->
+
 
     <EncoderProfile quality="timelapse4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
@@ -1210,7 +1209,7 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="qhd" fileFormat="mp4" duration="30">
+    <!--<EncoderProfile quality="qhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="29400000"
              width="2560"
@@ -1234,7 +1233,7 @@
              bitRate="320000"
              sampleRate="48000"
              channels="2" />
-    </EncoderProfile>
+    </EncoderProfile>-->
 
     <EncoderProfile quality="4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
@@ -1428,14 +1427,13 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapseqhd" fileFormat="mp4" duration="30">
+    <!--<EncoderProfile quality="timelapseqhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="29400000"
              width="2560"
              height="1440"
              frameRate="30" />
 
-      <!-- audio setting is ignored -->
       <Audio codec="aac"
              bitRate="320000"
              sampleRate="48000"
@@ -1449,12 +1447,11 @@
              height="1080"
              frameRate="30" />
 
-      <!-- audio setting is ignored -->
       <Audio codec="aac"
              bitRate="320000"
              sampleRate="48000"
              channels="2" />
-    </EncoderProfile>
+    </EncoderProfile>-->
 
     <EncoderProfile quality="timelapse4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
@@ -1651,7 +1648,7 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="qhd" fileFormat="mp4" duration="30">
+    <!--<EncoderProfile quality="qhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="29400000"
              width="2560"
@@ -1675,7 +1672,7 @@
              bitRate="320000"
              sampleRate="48000"
              channels="2" />
-    </EncoderProfile>
+    </EncoderProfile>-->
 
     <EncoderProfile quality="4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
@@ -1869,14 +1866,13 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapseqhd" fileFormat="mp4" duration="30">
+    <!--<EncoderProfile quality="timelapseqhd" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="29400000"
              width="2560"
              height="1440"
              frameRate="30" />
 
-      <!-- audio setting is ignored -->
       <Audio codec="aac"
              bitRate="320000"
              sampleRate="48000"
@@ -1890,12 +1886,11 @@
              height="1080"
              frameRate="30" />
 
-      <!-- audio setting is ignored -->
       <Audio codec="aac"
              bitRate="320000"
              sampleRate="48000"
              channels="2" />
-    </EncoderProfile>
+    </EncoderProfile>-->
 
     <EncoderProfile quality="timelapse4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
